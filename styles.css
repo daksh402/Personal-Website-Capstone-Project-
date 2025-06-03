@@ -1,0 +1,205 @@
+/* Global container styling for consistent margins */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container,
+.container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/* Responsive margins */
+@media (max-width: 768px) {
+  .container,
+  .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container,
+  .container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+#title{
+  background-image: url(./images/HERO_SECTION_BG.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 100px 0;
+}
+
+#title .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/* Consistent section styling with alternating backgrounds */
+section {
+  padding: 60px 0;
+}
+
+#resume-page {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+#resume-page .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#skills {
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+#skills .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#skills h2 {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #dee2e6;
+  margin-bottom: 3rem;
+}
+
+#work-exp {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+#work-exp .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#projects {
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+#projects .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#projects h2 {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #dee2e6;
+  margin-bottom: 3rem;
+  font-weight: normal;
+}
+
+#footer {
+  background-image: url(./images/HERO_SECTION_BG.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 60px 0;
+}
+
+#footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#footer,
+#footer .nav-link,
+#footer p {
+  color: white !important;
+}
+
+.profile-photo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+.feature{
+    text-align: justify;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: justify;
+    list-style: disc;
+}
+
+.fade-in {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-fill-mode: forwards;
+    animation-duration: 4s;
+}
+
+@keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+}
+
+li{
+    margin-bottom: 1.5rem;
+}
+
+.carousel-caption {
+  background: linear-gradient(135deg, rgba(13, 110, 253, 0.9), rgba(25, 135, 84, 0.9));
+  padding: 25px 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  margin: 0 20px 20px 20px;
+}
+
+.carousel-caption h5 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 0.75rem;
+}
+
+.carousel-caption p {
+  color: #f8f9fa;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 0;
+}
+
+.carousel-item img {
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
